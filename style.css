@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -17,6 +19,7 @@ html {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    position: relative;
 }
 
 .navbar {
@@ -403,4 +406,5 @@ html {
     border-radius: 8px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #838282;
+  
 }
